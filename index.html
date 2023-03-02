@@ -1,42 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>My blog</title>
   </head>
   <body>
-    <div>
-    <header>Escape.</header>
-    <nav><span>
-        <a href="index.html">HOME</a>
-        <a href="#">CATEGORIES</a>
-        <a href="#">ABOUT</a>
-        <a href="#">CONTACTS</a>       
-    </span></nav>
-    </div>
-    <div>
-    <h1>Let's do it together.</h1>
-    <p>We travel the world in search of stories. Come along for the ride.</p>
-    <form action="last_post.html">
-        <button type="submit">View Latest Posts</button>
-    </form>
-    <nav><span>
-        <a href="#">Nature</a>
-        <a href="#">Photography</a>
-        <a href="#">Relaxation</a>
-        <a href="#">Vacation</a>
-        <a href="#">Travel</a>
-        <a href="#">Adventure</a>                 
-    </span></nav>
-    </div>
-    <div>
-    <h1>Featured Posts</h1>
-    <p>The Road Ahead</p>
-    <p>The road ahead might be paved - it might not be.</p>
-    <p><img src="profile_picture_1.jpg" width="30" height="30" alt="profile picture">Mat Vogels. September 25, 2015</p>
-    <p>Adventure From Top Down</p>
-    <h1>Most Recent</h1>
-    <footer><p><img src="most_recent.jpg" alt="most recent">Still Standing Tall.</p></footer>
-    </div>  
-</body>
+    <header>
+      <h1>Escape.</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#">CATEGORIES</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CONTACTS</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Let's do it together.</h2>
+        <p>We travel the world in search of stories. Come along for the ride.</p>
+        <form action="last_post.html">
+          <button type="submit">View Latest Posts</button>
+        </form>
+        <nav>
+          <ul>
+            <li><a href="#">Nature</a></li>
+            <li><a href="#">Photography</a></li>
+            <li><a href="#">Relaxation</a></li>
+            <li><a href="#">Vacation</a></li>
+            <li><a href="#">Travel</a></li>
+            <li><a href="#">Adventure</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <section>
+        <h2>Featured Posts</h2>
+        <article>
+          <h3>The Road Ahead</h3>
+          <p>The road ahead might be paved - it might not be.</p>
+          <p><img src="profile_picture_1.jpg" width="30" height="30" alt="profile picture">Mat Vogels. September 25, 2015</p>
+        </article>
+      
+        <article>
+          <h3>From Top down</h3>
+          <p>Once a year, go someplace you’ve never been before.</p>
+          <p><img src="profile_picture_1.jpg" width="30" height="30" alt="profile picture">William Wong. September 25, 2015</p>
+        </article>
+     </section>
+
+      <section>
+        <h2>Most Recent</h2>
+        <article>
+          <figure>
+            <img src="most_recent.jpg" alt="most recent">
+            <figcaption>
+              <h4>Still Standing Tall.</h4>
+              <p>Life begins at the end of your comfort zone.</p>
+          </figcaption>
+          </figure>
+        </article>
+      
+        <article>
+          <figure>
+            <img src="sunny_side_up.jpg" alt="sunny side up">
+            <figcaption>
+              <h4>Sunny Side Up</h4>
+              <p>No place is ever as bad as they tell you it’s going to be.</p>
+            </figcaption>
+          </figure>
+        </article>
+        
+        <article>
+          <figure>
+            <img src="water_falls.jpg" alt="water falls">
+            <figcaption>
+              <h4>Water Falls</h4>
+              <p>We travel not to escape life, but for life not to escape us.</p>
+            </figcaption>
+          </figure>
+        </article>
+        
+        <article>
+          <figure>
+            <img src="through_the_mist.jpg" alt="through the mist">
+            <figcaption>
+              <h4>Through the Mist</h4>
+              <p>Travel makes you see what a tiny place you occupy in the world.</p>
+            </figcaption>
+          </figure>
+        </article>
+        
+        <article>
+          <figure>
+            <img src="awaken_early.jpg" alt="awaken early">
+            <figcaption>
+              <h4>Awaken Early</h4>
+              <p>Not all those who wander are lost.</p>
+            </figcaption>
+          </figure>
+        </article>
+        
+        <article>
+          <figure>
+            <img src="try_it_always.jpg" alt="try it always">
+            <figcaption>
+              <h4>Try it Always</h4>
+              <p>The world is a book, and those who do not travel read only one page.</p>
+            </figcaption>
+          </figure>
+        </article>        
+      </section>      
+    </main>
+    <footer>
+      <p>&copy; 2023 My Blog. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
